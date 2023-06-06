@@ -25,7 +25,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inherit from beyond0lte device
 $(call inherit-product, device/samsung/beyond0lte/device.mk)
 
-$(call inherit-product, device/samsung/exynos9820-common/v4afx/config.mk)
+## Inherit v4afx
+$(call inherit-product, vendor/v4afx/config.mk)
 
 WITH_GAPPS := 0
 # Valid for core/full GAPPS (default=true)
