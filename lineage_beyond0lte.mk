@@ -30,17 +30,17 @@ $(call inherit-product, vendor/v4afx/config.mk)
 
 WITH_GAPPS := 0
 # Valid for core/full GAPPS (default=true)
-TARGET_USE_GOOGLE_TELEPHONY := false
+TARGET_USE_GOOGLE_TELEPHONY := true
 
 # Alpha internal properties
 TARGET_ENABLE_BLUR := true
-TARGET_INCLUDE_MATLOG := false
+TARGET_INCLUDE_MATLOG := true
 TARGET_USE_PIXEL_LAUNCHER := false
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_DEFAULT_ADB_ENABLED := true
 ALPHA_MAINTAINER := Mgm2023
 ALPHA_BUILD_TYPE := Official
-
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
